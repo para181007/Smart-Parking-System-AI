@@ -1,0 +1,16 @@
+DEMO MODEL EVALUATION
+Test accuracy: 0.973
+
+Classification report:
+              precision    recall  f1-score   support
+
+    Occupied       1.00      0.94      0.97        32
+      Vacant       0.96      1.00      0.98        43
+
+    accuracy                           0.97        75
+   macro avg       0.98      0.97      0.97        75
+weighted avg       0.97      0.97      0.97        75
+
+Confusion matrix (rows=true, columns=predicted; labels Occupied, Vacant):
+[[30  2]
+ [ 0 43]]
